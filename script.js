@@ -1004,3 +1004,4 @@ window.onload = () => {
   const VKeyboard = new VirtualKeyboard()
   VKeyboard.init(data.keyboardRows)
 }
+

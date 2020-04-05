@@ -1,9 +1,7 @@
-* {
-  box-sizing: border-box;
-}
 .container {
   max-width: 1020px;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 .text {
   width: 100%;
@@ -23,15 +21,12 @@
 .keyboard-key {
   height: 50px;
   margin: 3px;
-  font-size: 16px;
   line-height: 50px;
   text-align: center;
   color: white;
   background-color: rgb(72, 99, 126);
   cursor: pointer;
-  border: none;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(73, 67, 67, 0.5);
+  border-radius: 6px;
   transition: box-shadow 0.3s, background-color 0.3s;
 }
 .normal {
